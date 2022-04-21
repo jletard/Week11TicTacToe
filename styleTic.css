@@ -1,0 +1,14 @@
+.piece {
+    width: 100px;
+    height: 100px;
+}
+
+.colMid {
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+}
+
+.rcolMid {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}

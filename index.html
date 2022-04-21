@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styleTic.css">
+</head>
+<body class="container">
+    <br>
+    <div class="card text-center">
+        <div class="card-header">
+            <h1>Tic-Tac-Toe</h1>
+        </div>
+        <div class="card-body">
+            <h3 class="card-title" id="turn_space">Welcome to Tic-Tac-Toe!</h2>
+            <div class="row d-flex justify-content-center">
+                <div class="column">
+                    <img class="piece picked" id="0" src="x.png">
+                </div>
+                <div class="column colMid">
+                    <img class="piece picked" id="1" src="o.png">
+                </div>
+                <div class="column">
+                    <img class="piece picked" id="2" src="x.png">
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="column rcolMid">
+                    <img class="piece picked" id="3" src="o.png">
+                </div>
+                <div class="column rcolMid colMid">
+                    <img class="piece picked" id="4" src="x.png">
+                </div>
+                <div class="column rcolMid">
+                    <img class="piece picked" id="5" src="o.png">
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="column">
+                    <img class="piece picked" id="6" src="x.png">
+                </div>
+                <div class="column colMid">
+                    <img class="piece picked" id="7" src="o.png">
+                </div>
+                <div class="column">
+                    <img class="piece picked" id="8" src="x.png">
+                </div>
+            </div>
+            <br>
+            <button type="button" class="btn btn-success" id="new_game">New Game</button>
+        </div>
+
+    </div>
+    
+
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="ticTacToe.js"></script>
+</body>
+</html>
